@@ -12,6 +12,18 @@ dist
 dist-ssr
 *.local
 
+# Supabase configs & generated types
+supabase/config.toml
+supabase/.temp/
+supabase/migrations/
+
+# Environment config
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
